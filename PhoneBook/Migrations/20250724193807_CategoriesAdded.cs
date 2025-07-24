@@ -10,13 +10,13 @@ namespace PhoneBook.Migrations
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-
+            // No schema changes required in this migration.
         }
 
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-
+            // No rollback actions needed because no schema changes were applied.
         }
     }
 }
